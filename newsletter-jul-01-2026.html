@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>July 2026 — The Big Beach Books Brief</title>
+<meta name="description" content="I've Changed My Position 180 Degrees: a 1995 email exchange between Andy Grove and Steve Jobs, the four words that turned a transaction back into a friendship, and what it means for doing business on the Gulf Coast.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#002d6b;--blue:#004AAD;--blue-bright:#38B6FF;--gold:#F4C154;--amber:#C97B2A;--amber-hover:#b06820;--sandy:#E8C97A;--cream:#F5EDD8;--white:#ffffff;--text-dark:#002d6b;--text-mid:#2a4a6a;--text-light:#5a82a8;--text-muted:#8ab0cc;}
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--text-dark);line-height:1.7;-webkit-font-smoothing:antialiased;}
+  .masthead{background:linear-gradient(150deg,#004AAD 0%,#002d6b 100%);padding:26px 40px;position:relative;overflow:hidden;}
+  .masthead::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 80% 40%,rgba(56,182,255,0.16) 0%,transparent 70%);}
+  .masthead-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.03) 1px,transparent 1px);background-size:40px 40px;}
+  .masthead-inner{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+  .masthead-brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:20px;font-weight:700;color:var(--white);letter-spacing:0.3px;}
+  .masthead-brand span{color:var(--gold);}
+  .masthead-meta{font-size:10.5px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--blue-bright);text-align:right;}
+  .wrap{max-width:680px;margin:0 auto;padding:54px 40px 80px;}
+  .issue-hero-img{display:block;width:100%;max-width:520px;height:auto;margin:0 auto 36px;border-radius:14px;box-shadow:0 14px 44px rgba(0,10,30,0.28);}
+  .issue-eyebrow{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--amber);margin-bottom:14px;}
+  h1.issue-title{font-family:'Cormorant Garamond',serif;font-size:43px;line-height:1.1;font-weight:700;color:var(--navy);margin-bottom:24px;}
+  .issue-lede{font-size:18px;line-height:1.7;color:var(--text-mid);font-weight:400;margin-bottom:16px;}
+  .rule{height:1px;background:rgba(12,30,53,0.12);margin:38px 0;}
+  h2{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:700;color:var(--navy);margin:40px 0 16px;line-height:1.15;}
+  h2 em{font-style:italic;color:var(--blue-bright);}
+  h3{font-size:17px;font-weight:600;color:var(--blue);margin:28px 0 8px;}
+  p{font-size:16.5px;color:var(--text-mid);margin-bottom:18px;}
+  strong{color:var(--navy);font-weight:600;}
+  .quote{font-family:'Cormorant Garamond',serif;font-size:23px;font-style:italic;line-height:1.4;color:var(--navy);border-left:3px solid var(--amber);background:rgba(201,123,42,0.06);padding:22px 28px;margin:30px 0;border-radius:0 10px 10px 0;}
+  .pull{font-family:'Cormorant Garamond',serif;font-size:25px;font-style:italic;font-weight:600;color:var(--navy);line-height:1.35;border-left:3px solid var(--amber);padding:6px 0 6px 22px;margin:28px 0;}
+  .callout{border-radius:14px;padding:28px 30px;margin:34px 0;}
+  .callout-cta{background:linear-gradient(150deg,#004AAD 0%,#002d6b 100%);position:relative;overflow:hidden;}
+  .callout-cta::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 75% 40%,rgba(56,182,255,0.14) 0%,transparent 70%);}
+  .callout-eyebrow{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;}
+  .callout-title{font-family:'Cormorant Garamond',serif;font-size:23px;font-weight:700;margin-bottom:10px;line-height:1.25;}
+  .callout-cta .callout-eyebrow{color:var(--gold);position:relative;z-index:2;}
+  .callout-cta .callout-title{color:var(--white);position:relative;z-index:2;}
+  .callout-cta p{color:rgba(255,255,255,0.74);position:relative;z-index:2;margin-bottom:18px;}
+  .btn{display:inline-block;background:var(--amber);color:var(--white);font-family:'DM Sans',sans-serif;font-size:14.5px;font-weight:600;padding:14px 28px;border-radius:8px;text-decoration:none;box-shadow:0 4px 16px rgba(201,123,42,0.35);transition:background 0.2s,transform 0.15s;position:relative;z-index:2;}
+  .btn:hover{background:var(--amber-hover);transform:translateY(-2px);}
+  .deadline-flag{display:inline-block;background:rgba(201,123,42,0.14);color:var(--amber);font-size:13px;font-weight:600;padding:3px 12px;border-radius:6px;}
+  .signoff{margin-top:46px;padding-top:30px;border-top:2px solid rgba(12,30,53,0.1);}
+  .signoff-name{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:700;color:var(--navy);margin-bottom:4px;}
+  .signoff-role{font-size:13px;color:var(--text-light);font-weight:500;letter-spacing:0.3px;margin-bottom:14px;}
+  .signoff-contact{font-size:14px;color:var(--text-mid);}
+  .signoff-contact a{color:var(--blue);text-decoration:none;font-weight:600;}
+  .signoff-contact a:hover{text-decoration:underline;}
+  .disclaimer{font-size:12px;color:var(--text-light);line-height:1.6;margin-top:26px;font-style:italic;}
+  @media(max-width:600px){
+    .masthead{padding:20px 22px;}.masthead-meta{text-align:left;}
+    .wrap{padding:38px 22px 60px;}
+    h1.issue-title{font-size:33px;}.issue-lede{font-size:16px;}
+    h2{font-size:25px;}.quote{font-size:20px;}.pull{font-size:21px;}.callout{padding:22px 20px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="masthead-grid"></div>
+  <div class="masthead-inner">
+    <div class="masthead-brand">The Big Beach <span>Books</span> Brief</div>
+    <div class="masthead-meta">July 2026<br>Gulf Shores, Alabama</div>
+  </div>
+</div>
+
+<article class="wrap">
+  <img class="issue-hero-img" src="newsletter-jul-01-2026.png" alt="MONEY — gold coins and banknotes lit by a single spotlight against black, with the Pink Floyd lyric 'Grab that cash with both hands and make a stash.'">
+  <div class="issue-eyebrow">July 1, 2026 · The Big Beach Books Brief</div>
+  <h1 class="issue-title">I've Changed My Position 180 Degrees</h1>
+
+  <p class="issue-lede">I've been reading <em>Make Something Wonderful</em>, a collection of Steve Jobs's own letters, emails, and talks.</p>
+  <p class="issue-lede">One chapter reprints an email exchange from 1995 that I haven't been able to put down.</p>
+
+  <p>It's a thread between three men. Andy Grove, then the CEO of Intel. Steve Jobs, who at the time was running Pixar — a company quietly becoming the most important name in computer graphics. And a young Intel engineer who goes unnamed in the published exchange.</p>
+  <p>Intel wanted to learn. Pixar was doing something with graphics that Intel knew it needed to understand, and Andy Grove — never a shy man — asked Steve whether his people could sit down with Pixar's. Andy tapped his engineer to make the connection.</p>
+  <p>The engineer sent Steve an email. And Steve read it as arrogant.</p>
+  <p>Steve wrote back with an edge. If Intel wanted what Pixar knew, then Intel could pay for it. This was valuable information, and Steve wasn't inclined to simply hand it over.</p>
+  <p>Then Andy Grove replied. He didn't argue economics. He reminded Steve of something simpler and older than any licensing deal: this is how friends and partners operate. You help each other. Sometimes you give more than you get; sometimes you get more than you give. "These things," Andy wrote, "balance out."</p>
+  <p>And Steve — not a man famous for backing down — read that, and corrected himself:</p>
+
+  <div class="quote">"I have many faults, but one of them is not ingratitude. And I do agree with you that, in the long run, these things balance out. Therefore, I have changed my position 180 degrees — we will freely help your engineer make his processors much better for 3D graphics."</div>
+
+  <p>The most stubborn man in technology paused, saw it, and chose the relationship over the invoice.</p>
+
+  <div class="rule"></div>
+
+  <h2>These Things Balance Out</h2>
+  <p>In business, we need these kinds of associations — built on reflection, friendship, loyalty, respect, and love. Some never grasp this concept. They will forever be looking for what they can get, and without feeling will trash a friendship of many years' duration for the sake of financial gain.</p>
+  <p class="pull">Friendships are built on what money can't buy. Reduce everything to a transaction, and you are dirt poor — no matter your bank balance.</p>
+
+  <div class="rule"></div>
+
+  <h2>A Few Things Worth Your Attention This Month</h2>
+
+  <h3>Peak Season Is a Cash-Flow Illusion</h3>
+  <p>Money is pouring in right now — but a good chunk of it was never yours. Sales tax, lodging tax, and your own income tax are all riding inside those summer deposits. Set aside a fixed percentage of every busy-season dollar in a separate account now, so the slow months and the tax bill don't catch you flat.</p>
+
+  <h3>Stay Current on Sales &amp; Lodging Tax</h3>
+  <p>For our Gulf Shores and Orange Beach short-term rental, retail, and hospitality owners, monthly filings (due the 20th) stack up fast in season. Confirm that Airbnb and Vrbo are actually remitting on your behalf, and that the split is landing correctly in your MAT account. A five-minute check now beats a penalty later.</p>
+
+  <h3>Do a Mid-Year Reconciliation While It's Fresh</h3>
+  <p>Reconcile your books through June while the season is still roaring — you'll catch the messy stuff now instead of next April. And your Q3 estimated payment is due <span class="deadline-flag">September 15</span>; project it now, not in the last week of August.</p>
+
+  <div class="callout callout-cta">
+    <div class="callout-eyebrow">In the Long Run</div>
+    <div class="callout-title">Choose business associates who love you more than money, and you'll have something money can never buy.</div>
+    <p>That's how we've always built Big Beach Books. Ready to work with a CPA who sees you as more than a line item?</p>
+    <a href="https://www.bigbeachbooks.com/Contact-Us/" class="btn">Book a Free Consult · 251.948.0132 →</a>
+  </div>
+
+  <div class="signoff">
+    <div class="signoff-name">Daniel P. Jajeh, CPA, MBA</div>
+    <div class="signoff-role">Managing Director · Big Beach Books, LLC · Gulf Shores, Alabama</div>
+    <div class="signoff-contact">
+      <a href="tel:+12519480132">251.948.0132</a> &nbsp;·&nbsp;
+      <a href="mailto:info@BigBeachBooks.com">info@BigBeachBooks.com</a> &nbsp;·&nbsp;
+      <a href="https://www.bigbeachbooks.com/">bigbeachbooks.com</a>
+    </div>
+    <p class="disclaimer">Big Beach Books LLC provides bookkeeping, tax, and accounting services for small businesses across the Gulf Coast. Licensed CPA Firm · Gulf Shores, Alabama. This brief is general education only and not personalized advice.</p>
+  </div>
+</article>
+
+</body>
+</html>
